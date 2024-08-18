@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.dnsSettings.managed</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.example.adblock.dns</string>
+        <key>PayloadUUID</key>
+        <string>12345678-1234-1234-1234-1234567890ab</string>
+        <key>PayloadDisplayName</key>
+        <string>Chặn ADS pro Thươngios</string>
+        <key>PayloadDescription</key>
+        <string>Cấu hình DNS để chặn quảng cáo sử dụng dịch vụ DNS mạnh mẽ như AdGuard DNS.</string>
+        <key>DNSSettings</key>
+        <dict>
+          <key>ServerAddresses</key>
+          <array>
+            <string>94.140.14.14</string> <!-- AdGuard DNS IP -->
+            <string>94.140.15.15</string> <!-- AdGuard DNS IP -->
+            <string>45.90.28.0</string>  <!-- AdGuard DNS IP (tùy chọn khác) -->
+            <string>45.90.30.0</string>  <!-- AdGuard DNS IP (tùy chọn khác) -->
+          </array>
+        </dict>
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Chặn ADS pro Thươngios</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.adblock</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>87654321-4321-4321-4321-0987654321ba</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>
